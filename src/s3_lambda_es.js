@@ -23,9 +23,9 @@ var stream = require('stream');
 
 /* Globals */
 var esDomain = {
-    endpoint: 'my-search-endpoint.amazonaws.com',
-    region: 'my-region',
-    index: 'logs',
+    endpoint: 'search-velo-mfierzhwcuuhkpfrhiryttg3jq.us-east-1.es.amazonaws.com',
+    region: 'us-east-1',
+    index: 'test',
     doctype: 'apache'
 };
 var endpoint =  new AWS.Endpoint(esDomain.endpoint);
