@@ -1,0 +1,26 @@
+{
+  "name": "amazon-elasticsearch-lambda-samples",
+  "version": "1.0.0",
+  "description": "Copyright 2015- Amazon.com, Inc. or its affiliates. All Rights Reserved.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kz4/amazon-elasticsearch-lambda-samples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kz4/amazon-elasticsearch-lambda-samples/issues"
+  },
+  "homepage": "https://github.com/kz4/amazon-elasticsearch-lambda-samples#readme",
+  "dependencies": {
+    "aws-sdk": "^2.41.0",
+    "byline": "^5.0.0",
+    "clf-parser": "0.0.2",
+    "path": "^0.12.7",
+    "stream": "0.0.2"
+  }
+}
